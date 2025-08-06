@@ -1,0 +1,16 @@
+---
+id: 0
+name: "Devnet Deployment"
+network: devnet
+stacks-node: "http://localhost:3999"
+bitcoin-node: "http://localhost:18443"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: starter
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 8650
+            path: ../contracts/starter.clar
+            clarity-version: 2

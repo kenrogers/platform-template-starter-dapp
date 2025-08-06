@@ -1,0 +1,17 @@
+{
+  "title": "Starter dApp",
+  "description": "A minimal starter template for building Stacks applications with Clarity smart contracts and Next.js frontend",
+  "type": "dapp",
+  "framework": "clarity, next.js, react.js",
+  "useCase": "starter",
+  "complexity": "beginner",
+  "tags": [
+    "starter",
+    "template",
+    "web3",
+    "smart-contract",
+    "stacks",
+    "clarity",
+    "next.js"
+  ]
+}
