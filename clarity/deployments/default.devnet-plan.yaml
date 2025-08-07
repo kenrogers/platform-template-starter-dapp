@@ -12,5 +12,5 @@ plan:
             contract-name: starter
             expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             cost: 8650
-            path: ../contracts/starter.clar
-            clarity-version: 2
+            path: contracts/starter.clar
+            clarity-version: 3
